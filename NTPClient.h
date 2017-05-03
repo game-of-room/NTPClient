@@ -74,6 +74,12 @@ class NTPClient {
      */
     void setUpdateInterval(int updateInterval);
 
+	/**
+	 * Set the NTP server. If it is not set in the constructor.
+	 *
+	 */
+	void setServerName(const char* serverName);
+
     /**
      * @return time formatted like `hh:mm:ss`
      */

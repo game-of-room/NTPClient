@@ -144,6 +144,10 @@ void NTPClient::setTimeOffset(int timeOffset) {
   this->_timeOffset     = timeOffset;
 }
 
+void NTPClient::setServerName(const char* serverName) {
+	this->_poolServerName = serverName;
+}
+
 void NTPClient::setUpdateInterval(int updateInterval) {
   this->_updateInterval = updateInterval;
 }
